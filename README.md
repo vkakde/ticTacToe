@@ -11,15 +11,6 @@ For a new game, asks how large the board should be as a prompt on its own line. 
 For a new game, asks what the win sequence count should be (i.e. 3 would be normal standard tic-tac-toe) as a prompt on its own line.
 For a new game, checks to ensure that winning is possible given the criteria specified, and display an error and quit if not.
   
-2. Outputs a board in the following general format:
- 
-    1   2   3  
-1     |   |  
-   ---+---+---  
-2     |   |  
-   ---+---+---  
-3     |   |  
-   
-3. Repeats the following process over and over again until the user saves and quits, the game is won, or a tie occurs:
+2. Repeats the following process over and over again until the user saves and quits, the game is won, or a tie occurs:
 Asks the user for a row and column number separated by spaces, or Q to quit. Puts the appropriate symbol for that player in the specified spot. Players are given the following symbols, in order: XOABCDEFGHIJKLMNPQRSTUVWYZ
 If the user chooses instead to save and quit, ask them for a filename in a prompt on its own line. Then, save to that file and quit.
